@@ -1,0 +1,27 @@
+* {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+/* this is the header */
+
+#header {
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: #004175;
+    border-bottom;: 3px solid #89DEEF
+    padding: 5px
+}
+
+#pet-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#dog-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
