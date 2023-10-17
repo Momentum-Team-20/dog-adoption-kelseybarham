@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+/* this is the header */
+
+header {
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: #004175;
+    border-bottom: 3px solid #89DEEF;
+    padding: 5px
+}
+
+.dog-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pet-profile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dog-image {
+    display: flex;
+    width: 300px;
+    flex-direction: flex-start;
+    align-items: flex-start;
+}
+
+.dog-traits {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 0px;
+}
+
+.keyword {
+    background-color: #89DEEF;
+    border-radius: 4px;
+    margin-left: 3px;
+    font-size: small;
+    padding: 3px
+}
+
+.name {
+    font-weight: bold;
+}
+
+
+
+footer {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+}
+
+.footer-text {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-2rem, -2rem);
+}
+
+.footer-section {
+    position: relative;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#footer1 {
+    background:  linear-gradient(
+        rgba(166, 169, 240, 1), rgba(166, 169, 240, .7)
+      ), url("starter_files/images/donate.jpg");
+      background-position: center center;
+      background-size: cover;
+    
+}
+
+#footer2 {
+    background: linear-gradient(
+        rgba(166, 169, 240, 1), rgba(166, 169, 240, .7) 
+    ), url(starter_files/images/volunteer.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+#footer3 {
+    background: linear-gradient(
+        rgba(166, 169, 240, 1), rgba(166, 169, 240, .7) 
+    ), url(starter_files/images/location.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer-image {
+    display: flex;
+  height: 300px;
+}
